@@ -18,6 +18,9 @@ class student{
 
     void  display(){
         System.out.println("Name :" +name);
+        System.out.println("Rollno :" +rollno);
+        System.out.println("Age :" +age);
+        System.out.println("..................../");
     }
 
     
@@ -26,6 +29,11 @@ class student{
 public class Constructor1{
 
     public static void main(String[] args) {
+        student s1 = new student();
+        
+        student s2 = new student();
+        s1.display();
+        s2.display();
         
 
     }
