@@ -8,13 +8,14 @@ class Parent{
 class Child extends Parent{
 
        Child() {
-        System.out.println("this is ");
+        System.out.println("this is child class ");
     }
     
 }
 
 public class ConstructorExecuted{
     public static void main(String[] args) {
+        Child obj = new Child();
         
     }
 }
